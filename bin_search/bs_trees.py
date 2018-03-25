@@ -1,4 +1,5 @@
 # Tree object, just specify root and leaves
+# Spec: A Tree consists of a root, which is of type Node, and possibly a left subtree of type # Tree and possibly a right subtree of type Tree. If the left subtree is present, then all its nodes are less than the parent tree's root and if the right tree is present, then all its nodes are greater than the parent tree's root. Implement eq, str, and ne for BS trees. The example test cases should provide enough information to implement these methods correctly.
 
 
 class Tree(object):
